@@ -6,4 +6,5 @@ else:
     print("最后被打印")
 finally:
     print("最后被打印2")
-liset1 = []
+
+    print("最后被打印3")
