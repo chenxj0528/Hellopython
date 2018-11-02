@@ -1,10 +1,8 @@
-def jiecheng(x):
-    if x == 1 or x == 2:
-        return 1
-    else:
-        return jiecheng(x - 1) + jiecheng(x - 2)
-
-
-a = jiecheng(40)
-
-print(a)
+try:
+    int('123')
+except ValueError as reson:
+    print(reson)
+else:
+    print("最后被打印")
+finally:
+    print("最后被打印2")
